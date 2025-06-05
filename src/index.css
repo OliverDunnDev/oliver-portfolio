@@ -78,6 +78,10 @@ h2 {
     color: inherit;
     cursor: pointer;
     transition: transform 0.2s ease;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .project-card:hover {
