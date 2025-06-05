@@ -73,15 +73,17 @@ h2 {
 }
 
 .project-card {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 15px;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  transition: transform 0.3s;
+    display: block; /* make entire card clickable */
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: transform 0.2s ease;
 }
+
 .project-card:hover {
-  transform: scale(1.05);
+    transform: scale(1.02); /* optional: subtle hover effect */
 }
+
 
 ul {
   list-style: none;

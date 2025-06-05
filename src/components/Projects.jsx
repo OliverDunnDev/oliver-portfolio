@@ -3,7 +3,18 @@ export default function Projects() {
     <section id="projects">
       <h2>Projects</h2>
 
-      <a href="https://plennock.github.io/Honours-Stage-Project/" className="project-card">
+        <a
+            href="https://plennock.github.io/Honours-Stage-Project/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-card"
+        >
+            <h3>Quantum SafeML</h3>
+            <p>A quantum-enhanced ML monitoring framework detecting classifier degradation.</p>
+            <span>Python, Qiskit, Scikit-Learn</span>
+        </a>
+
+        <a href="https://plennock.github.io/Honours-Stage-Project/" className="project-card">
         <h3>Quantum SafeML</h3>
         <p>A quantum-enhanced ML monitoring framework detecting classifier degradation.</p>
         <span>Python, Qiskit, Scikit-Learn</span>
